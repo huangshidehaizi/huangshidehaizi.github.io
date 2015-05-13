@@ -1,26 +1,19 @@
-<header class="site-header">
-
-  <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">
-      <img src="/public/img/base.png" alt="Home" width="100" height="45"/>
-    </a>
-
-    <nav class="site-nav">
-      <div class="trigger">
-        <!--
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
-        -->
-          <a class="page-link" href="/">Home</a>
-          <a class="page-link" href="/page/blog">Blog</a>
-          <a class="page-link" href="/page/about">About</a>
-      </div>
-    </nav>
-
+<header>
+  <h1>
+    <a style="color: #000;" href="{{ site.baseurl }}/">{{ site.title }}</a>
+  </h1>
+  <p>
+    {{ site.description }}
+  </p>
+		  
+  <div class="container menu">
+    <ul>
+      {% for link in site.links %}
+      <li>
+        <a class="page-link" href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
 
 </header>

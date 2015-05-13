@@ -1,7 +1,7 @@
 # Site settings
-title: home
+title: 黄石的孩子
 email: usabucket@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description: "五月的时候，我想和你说说五月" #> # this means to ignore newlines until "baseurl:"
   
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://huangshidehaizi.com" # the base hostname & protocol for your site
@@ -11,3 +11,15 @@ github_username: huangshidehaizi
 
 # Build settings
 markdown: kramdown
+
+# Links
+links:
+  - title: "Home"
+    url: /
+  - title: "Posts"
+    url: /page/blog
+  - title: "About"
+    url: /page/about
+  - title: "RSS"
+    url: /feed.xml
+
