@@ -14,11 +14,11 @@ markdown: kramdown
 
 # Links
 links:
-  - title: "Home"
+  - title: "主页"
     url: /
-  - title: "Posts"
+  - title: "文章"
     url: /page/blog
-  - title: "About"
+  - title: "我"
     url: /page/about
   - title: "RSS"
     url: /feed.xml
