@@ -1,11 +1,12 @@
 <header>
   <h1>
-    <a style="color: #000;" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a href="{{ site.baseurl }}/">{{ site.title }}</a>
   </h1>
-  <p>
-    {{ site.description }}
-  </p>
-		  
+  <div class="feeling">
+    <a href="/page/poems">
+      {{ site.description }}
+    </a>
+  </div>  
   <div class="container menu">
     <ul>
       {% for link in site.links %}

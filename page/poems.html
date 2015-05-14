@@ -1,13 +1,15 @@
 ---
-layout: default
+layout: page
+title: 发梦  
+permalink: /page/poems/
 ---
 
-<ul class="recent-posts">
-  {% for post in site.categories.posts %}
+<ul class="posts recent-posts">
+  {% for post in site.categories.poems %}
     <li>
         <a class="title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <div>{{ post.content |truncatehtml | truncatewords: 30}}</div>
     </li>
   {% endfor %}
 </ul>
+

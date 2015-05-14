@@ -12,6 +12,10 @@ github_username: huangshidehaizi
 # Build settings
 markdown: kramdown
 
+#disqus settings
+disqus:
+  shortname: huangshidehaizi
+
 # Links
 links:
   - title: "主页"
